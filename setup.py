@@ -16,7 +16,7 @@ with open(os.path.join(here, 'requirements.txt')) as f:
 
 # Set version
 MAJOR = 0
-MINOR = 0
+MINOR = 1
 MICRO = 0
 
 VERSION = "{}.{}.{}".format(MAJOR,MINOR,MICRO)
