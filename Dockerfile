@@ -1,11 +1,13 @@
 FROM python:3.7.4
 
-COPY . /demoapp
+COPY . /alice
 
-WORKDIR /demoapp
+WORKDIR /alice
+
+RUN pip install --upgrade pip
 
 RUN pip install -r requirements.txt
 
 RUN python setup.py install
 
-CMD [ "python", "./demoapp/run_container.py" ]
+CMD [ "python", "./alice/run_container.py" ]

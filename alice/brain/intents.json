@@ -1,0 +1,27 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Salut",
+        "Hey",
+        "Bonjour",
+        "Allo"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Salut",
+        "Salut, qu'est ce que je peux faire pour vous?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "ciao", "au revoir"],
+      "responses": [
+        "À la prochaine",
+        "On se reparle",
+        "Revenez me voir rapidement !"
+      ]
+    }
+  ]
+}
